@@ -1,37 +1,102 @@
-## Welcome to GitHub Pages
+<style>
+body {
+    height: 100%;
+    background-color: #222;
+    /*background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) );*/
+    background-image: url("files/back.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
 
-You can use the [editor on GitHub](https://github.com/SkimKid/skimkid.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+    color: #CCC;
+	font-family: verdana;
+	font-size: 20px;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+#content {
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+	padding: 20px;
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+}
+.btn {
+  color: #CCC;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: solid #1f628d 0px;
+  cursor: pointer;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.btn:hover {
+  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) );
+  text-decoration: none;
+  cursor: hand;
+}
+</style>
 
-### Markdown
+<body>
+	<div class="main">
+	<br><br>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	<img id="emcf" src="files/skim.png"/>
 
-```markdown
-Syntax highlighted code block
+	<br><br>
 
-# Header 1
-## Header 2
-### Header 3
+		<input type="submit" class="btn" value="Home">
+		<input type="submit" class="btn" value="Contact">
+		<input type="submit" class="btn" value="Licenses">
 
-- Bulleted
-- List
+	<br><br>
 
-1. Numbered
-2. List
+	<div id="content">Beat Catalogue
 
-**Bold** and _Italic_ and `Code` text
+	<br><br>
 
-[Link](url) and ![Image](src)
-```
+	<iframe id="mfs_html5" src="https://airbit.com/widgets/html5/?uid=171591&config=321487" width="100%" height="510" frameborder="0" scrolling="no"></iframe>
+	
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+	<br>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SkimKid/skimkid.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	</div>
 
-### Support or Contact
+	<br><br>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	</div>
+</body>
+
+
+	<!--<link rel="stylesheet" href="css/style.css">
+</head>
+
+<div id="landing-wrapper">Lorem ipsum dolor ismet.</div>
+
+<!-- <body>
+    <div class="main">
+    	<div class="wrapper">
+			<br>
+			<div class="title"><img id="emcf" src="files/skim.png"/><br></div>
+				<br>
+				<img src="files/H1After.png">
+				<br>
+				<br>
+				<input type="submit" class="button" value="Home" id="home">
+				<input type="submit" class="button" value="Projects" id="blog">
+				<input type="submit" class="button" value="Contact" id="contact">
+				<br><br>
+
+			<div id="pageContent" class="center" style="height: 0px;">
+
+				
+
+			</div>
+		</div>
+	</div>
+</body> -->
